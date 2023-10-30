@@ -1,0 +1,91 @@
+h1{
+    text-align: center;
+    font-family: 'arial';
+}
+.h2g{
+    color: #FFFFFF;
+    text-align: center;
+    text-decoration: none;
+    background-color: #61677A;
+    border-bottom: 1px solid white;
+    font-family: 'arial';
+    font-size: 20px;
+
+}
+.h2d{
+    text-decoration: none;
+    border-bottom: 1px solid black;
+    font-family: 'arial';
+    font-size: 20px;
+}
+
+
+.img-circle {
+  border-radius: 50%;
+  margin: 10px 10px 10px 10px;
+}
+
+.shadowed{
+    box-shadow: 3px 3px 3px grey;
+}
+
+#gauche{
+    color: #FFFFFF;
+    background-color: #61677A;
+    text-align: center;
+    padding: 10px;
+    box-shadow: 0px 3px 30px grey;
+
+}
+
+#droite {
+    padding: 10px;
+    background: white;
+    box-shadow: 3px 3px 30px grey;
+}
+
+#tout {
+    display: grid;
+    grid-template-columns: 37% auto;
+    margin: 0px 350px 0px 350px;
+
+}
+
+#para {
+    margin: 30px 10px 10px 20px;
+}
+
+
+a {
+  color: white;
+}
+a:hover {
+  color: blueviolet;
+  text-decoration: none;
+}
+
+
+
+@media (max-width: 500px){
+    #résumé ; #para ; #section ; #réseaux ; #intro { 
+    width: 500px }
+}
+
+@media (max-width: 960px) {
+  #résumé ; #para ; #section ; #réseaux ; #intro {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  #résumé ; #para ; #section ; #réseaux ; #intro {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+
+  #résumé ; #para ; #section ; #réseaux ; #intro {
+    width: 300px;
+  }
+}
